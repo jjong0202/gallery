@@ -1,6 +1,7 @@
 <template>
   <div>
     {{ str }}
+    test
   </div>
 </template>
 
