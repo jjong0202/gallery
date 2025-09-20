@@ -1,6 +1,9 @@
 <template>
   <div>
     {{ str }}
+    {{obj.name}}
+    test
+    test    test
     test
     test    test
     test
@@ -9,9 +12,15 @@
 </template>
 
 <script setup>
-import {ref} from "vue";
+import {reactive, ref} from "vue";
+
+
 
 const str = ref("까꿍....");
+const obj = reactive({
+  name:'fadsfdasfdasfdasfdas',
+  age:99
+})
 
 </script>
 
