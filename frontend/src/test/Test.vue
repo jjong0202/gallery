@@ -2,6 +2,7 @@
   <div>
     {{ str }}
     test
+    test
   </div>
 </template>
 
